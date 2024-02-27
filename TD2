@@ -1,0 +1,60 @@
+osoft Windows [version 10.0.19045.4046]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\Amine CHOUAKi>npm install -g torrent
+npm WARN deprecated flatten@0.0.1: flatten is deprecated in favor of utility frameworks such as lodash.
+npm WARN deprecated flatten@1.0.3: flatten is deprecated in favor of utility frameworks such as lodash.
+npm WARN deprecated mkdirp@0.3.5: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated parse-torrent-file@2.1.4: Use the parse-torrent package instead
+
+added 127 packages in 11s
+
+9 packages are looking for funding
+  run `npm fund` for details
+npm notice
+npm notice New minor version of npm available! 10.2.4 -> 10.4.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.4.0
+npm notice Run npm install -g npm@10.4.0 to update!
+npm notice
+
+C:\Users\Amine CHOUAKi>torrent --version
+2.0.0
+
+C:\Users\Amine CHOUAKi>torrent create C:\Users\Amine CHOUAKi\Downloads\Chaton {-o outfile.torrent}
+Error: ENOENT: no such file or directory, stat 'C:\Users\Amine'
+
+C:\Users\Amine CHOUAKi> C:\Users\Amine_CHOUAKi\Downloads\Chaton {-o outfile.torrent}
+Le chemin d’accès spécifié est introuvable.
+
+C:\Users\Amine CHOUAKi>Downloads\Chaton {-o outfile.torrent}
+'Downloads\Chaton' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\Amine CHOUAKi>i\Downloads\Chaton {-o outfile.torrent}
+Le chemin d’accès spécifié est introuvable.
+
+C:\Users\Amine CHOUAKi>torrent create C:\Users\Amine_CHOUAKi\Downloads\Chaton {-o outfile.torrent} {-o outfile.torrent}
+Error: ENOENT: no such file or directory, stat 'C:\Users\Amine_CHOUAKi\Downloads\Chaton'
+
+C:\Users\Amine CHOUAKi>create C:\Users\Amine_CHOUAKi\Downloads\Chaton.jpg {-o outfile.torrent}
+'create' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\Amine CHOUAKi>torrent create C:\Users\Amine_CHOUAKi\Downloads\Chaton.jpg {-o outfile.torrent}
+Error: ENOENT: no such file or directory, stat 'C:\Users\Amine_CHOUAKi\Downloads\Chaton.jpg'
+
+C:\Users\Amine CHOUAKi>torrent create C:\Users\Amine CHOUAKi\Pictures\test {-o outfile.torrent}
+Error: ENOENT: no such file or directory, stat 'C:\Users\Amine'
+
+C:\Users\Amine CHOUAKi>^X
+
+C:\Users\Amine CHOUAKi>torrent create "C:\Users\Amine CHOUAKi\Pictures\test" -o outfile.torrent
+
+C:\Users\Amine CHOUAKi>torrent create "C:\Users\Amine CHOUAKi\Downloads\partition1" -o partition1.torrent
+
+C:\Users\Amine CHOUAKi>torrent create "C:\Users\Amine CHOUAKi\Downloads\partition1_copy" -o partition1_copy.torrent
+
+
+
+
+For Q4-6 I did them directly on the desktop app 
